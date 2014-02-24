@@ -2,6 +2,7 @@
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "mobi.pintsized.flappyhog"
+		versionCode = "15"
         version     = "1.1.0" >
 
     <!-- versionCode is optional and Android only -->
@@ -16,7 +17,9 @@
         PintSized.mobi
     </author>
 	
-	<preference name="phonegap-version" value="2.0.0" />
+	<gap:platform name="android" />
+	
+	<preference name="phonegap-version" value="3.3.0" />
 	<preference name="orientation" value="portrait" />
 	<preference name="fullscreen" value="true" />
 	
